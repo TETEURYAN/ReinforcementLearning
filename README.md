@@ -2,7 +2,7 @@
 
 ## 📖 Descrição
 
-Este projeto implementa um exemplo prático de aprendizado por reforço utilizando uma política **aleatória** para movimentar um agente em um ambiente de sala. A estrutura do código segue padrões de projeto para facilitar a organização e a manutenção.
+Este projeto implementa um exemplo prático de aprendizado por reforço utilizando uma política **aleatória** para movimentar um agente em um ambiente de sala. A estrutura do código segue padrões de projeto para facilitar a organização e a manutenção. A ideia surgiu na disciplina de Machine Learning durante o semestre 2024.1
 
 ---
 
@@ -12,6 +12,16 @@ Este projeto implementa um exemplo prático de aprendizado por reforço utilizan
 
 ---
 
+## 👥 Integrantes
+
+<center>
+
+
+  
+    Matheus Ryan
+ </center>
+
+<center>
 
 ## 📁 Estrutura do Projeto
 
@@ -19,14 +29,14 @@ Este projeto implementa um exemplo prático de aprendizado por reforço utilizan
 project/
 ├── main.py           # Arquivo principal para executar o programa
 ├── environment/
-│   ├── __init__.py   # Inicialização do pacote do ambiente
+│   ├── __init__.py   
 │   └── room.py       # Classe para gerenciar o ambiente da sala
 ├── agents/
-│   ├── __init__.py   # Inicialização do pacote de agentes
+│   ├── __init__.py  
 │   └── random_agent.py # Implementação do agente com política aleatória
 ├── utils/
-│   ├── __init__.py   # Inicialização do pacote de utilitários
-│   └── logger.py     # Classe para gerenciar logs
+│   ├── __init__.py   
+│   └── logger.py    
 
 ```
 
